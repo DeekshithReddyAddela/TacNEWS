@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/png" href="title.png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+ <link rel="stylesheet" href="news.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="news.js"></script>
+<script>
+	api('goo');
+</script>
+	
+<title>TacNews</title>
+</head>
+
+<body>
+	<div >
+		<!--<header ><a>TAC<h style="font-size: 130%;color:chartreuse"> NEWS</h></a></header>-->
+		<header><img src="logo.png"></header>
+		<nav>
+		<ul class="topnav">
+			<li><a href="home.html">Home</a></li>
+			<li><a class="active" href="news.html" >News</a></li>	
+			<li><a href="sp.html" >Sports</a></li>
+			<li><a href="facts.html" >Facts</a></li>
+			<li class="right"><a href="about.html">About</a></li>	
+		</ul>
+		</nav>
+	</div>
+	<!-- ------------------------------------------------------------------------------------------->
+	<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox" id="caro">
+
+      <div class="item active">
+		  <a onClick="api('cnn')" href="#id01"><img src="cnn.jpg" alt="CNN" width="100%" height="345" >
+        <div class="carousel-caption">
+         <span class="label label-success" rel="tag">General</span>
+          <h3>CNN</h3>
+          <p>View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.</p>
+        </div></a>
+      </div>
+
+      <div class="item">
+		  <a onClick="api('espn')" href="#id01"><img src="espn.png" alt="ESPN-CRICINFO" width="100%" height="345">
+        <div class="carousel-caption">
+         <span class="label label-success" rel="tag">Sport</span>
+          <h3>ESPN CRICINFO</h3>
+          <p>ESPN Cricinfo provides the most comprehensive cricket coverage available including live ball-by-ball commentary, news, unparalleled statistics, quality editorial comment and analysis.</p>
+        </div></a>
+      </div>
+    
+      <div class="item">
+        <a onClick="api('th')" href="#id01"><img src="thehindu.jpg" alt="THE-HINDU" width="100%" height="345">
+        <div class="carousel-caption">
+         <span class="label label-success" rel="tag">General</span>
+          <h3 style="color: black">The Hindu</h3>
+          <p style="color: black">The Hindu. latest news, analysis, comment, in-depth coverage of politics, business, sport, environment, cinema and arts from India's national newspaper.</p>
+        </div></a>
+      </div>
+
+      <div class="item">
+		  <a onClick="api('tv')" href="#id01"><img src="tv.jpg" alt="THE-VERGE" width="100%" height="345">
+        <div class="carousel-caption">
+         <span class="label label-success" rel="tag">Technology</span>
+          <h3 >THE VERGE</h3>
+          <p >The Verge covers the intersection of technology, science, art, and culture.</p>
+        </div></a>
+      </div>
+      <div class="item">
+		  <a onClick="api('ew')" href="#id01"><img src="ew.jpg" alt="Entertainment-Weekly" width="100%" height="345">
+        <div class="carousel-caption">
+         <span class="label label-success" rel="tag">Entertainment</span>
+          <h3>Entertainment Weekly</h3>
+          <p>Online version of the print magazine includes entertainment news, interviews, reviews of music, film, TV and books, and a special area for magazine subscribers.</p>
+        </div></a>
+      </div>
+      <div class="item">
+        <a onClick="api('cnbc')" href="#id01"><img src="cnbc.png" alt="CNBC" width="100%" height="345">
+        <div class="carousel-caption">
+         <span class="label label-success" rel="tag">Business</span>
+          <h3 >CNBC</h3>
+          <p >Get latest business news on stock markets, financial & earnings on CNBC. View world markets streaming charts & video; check stock tickers and quotes.</p>
+        </div></a>
+      </div>
+      </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- ------------------------------------------------------------------------------------------->
+		<div class="container">
+		<div class="row" id="id01">
+			
+		</div>
+	</div>
+	<div >		
+		<footer>Copyright&copyTacNews 2017</footer>
+	</div>
+</body>
+</html>

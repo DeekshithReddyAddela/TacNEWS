@@ -1,0 +1,104 @@
+<!doctype html>
+<html><head>
+<link rel="stylesheet" href="demcs.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="news.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<meta charset="utf-8">
+<title>Home</title>
+</head>
+
+<body>
+<div >
+		<header><img src="logo.png"></header>
+		<nav>
+		<ul class="topnav">
+			<li><a  class="active" href="home.html">Home</a></li>
+			<li><a href="news.html" >News</a></li>	
+			<li><a href="sp.html" >Sports</a></li>
+			<li><a href="facts.html" >Facts</a></li>
+			<li class="right"><a href="about.html">About</a></li>	
+		</ul>
+		</nav>
+</div>
+
+	<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox" id="caro">
+
+      <div class="item active">
+		  <a onClick="api('cnn')" href="#id01"><img src="12.jpg" alt="CNN" width="100%" height="345" >
+        <div class="carousel-caption">
+         <span class="label label-success" rel="tag">General</span>
+          <h3>CNN</h3>
+          <p>View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.</p>
+        </div></a>
+      </div>
+
+      <div class="item">
+		  <a onClick="api('espn')" href="#id01"><img src="11.jpg" alt="ESPN-CRICINFO" width="100%" height="345">
+        <div class="carousel-caption">
+         <span class="label label-success" rel="tag">Sport</span>
+          <h3>ESPN CRICINFO</h3>
+          <p>ESPN Cricinfo provides the most comprehensive cricket coverage available including live ball-by-ball commentary, news, unparalleled statistics, quality editorial comment and analysis.</p>
+        </div></a>
+      </div>
+    
+      <div class="item">
+        <a onClick="api('th')" href="#id01"><img src="10.jpg" alt="THE-HINDU" width="100%" height="345">
+        <div class="carousel-caption">
+         <span class="label label-success" rel="tag">General</span>
+          <h3 style="color: black">The Hindu</h3>
+          <p style="color: black">The Hindu. latest news, analysis, comment, in-depth coverage of politics, business, sport, environment, cinema and arts from India's national newspaper.</p>
+        </div></a>
+      </div>
+
+      
+      </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- ------------------------------------------------------------------------------------------->
+		
+  <div class="container">
+  <div class="container content center padding-64" style="max-width:800px" id="intro">
+    <h2 class="wide">INTRODUCTION</h2>
+    <p class="opacity"><i>Live Updates</i></p>
+    <p class="justify">TacNews releases news items 24 hours daily in various languages, namely, Chinese (simplified and traditional), English, French, Spanish, Russian, Arabic, Japanese, Korean, Tibetan, and Uygur by using multimedia communication means, such as texts, photos, graphics, audio messages, video, blogs, podcast, microblog, short messages, and cell phone news. As a result, it can reach directly and instantly its audiences at home and abroad at crucial moments of major news coverage,sports and breaking events.</p>
+    <p class="justify">TacNews is the primary provider of major and authoritative news to the nation's websites. A large number of its news stories are carried or reproduced by many news websites and government portals in China and the world, as well as by search engines such as Google and Baidu.</p>
+       <p class="justify">Facing a new round of fast expansion of the Internet industry and a valuable opportunity when news websites transform their business modes and go listed in a deep-going way, Xinhuanet is now accelerating its transformation and development, striving to rank among the world top 100 websites and become a Tac-rate, internationally competitive media or a cultural website-enterprise of fairly strong innovative capability as soon as possible.</p>
+</div>
+</div>
+<div >		
+		<footer>Copyright&copyTacNews 2017</footer>
+	</div>
+</body>
+</html>

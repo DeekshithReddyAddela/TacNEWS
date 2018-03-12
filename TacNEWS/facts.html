@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/png" href="title.png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+ <link rel="stylesheet" href="fact.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="fact.js"></script>
+
+	
+<title>TacNews</title>
+</head>
+
+<body>
+	<div >
+		<header><img src="logo2.png"></header>
+		<nav>
+		<ul class="topnav">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="news.html" >News</a></li>	
+			<li><a href="sp.html" >Sports</a></li>
+			<li><a class="active" href="facts.html" >Facts</a></li>
+			<li class="right"><a href="about.html">About</a></li>	
+		</ul>
+		</nav>
+	</div>
+
+    
+<!-- ------------------------------------------------------------------------------------------->
+	<div class="container">
+    <h5 class="center padding-48"><span class="tag wide padding-left padding-right">Check The Best Facts Here</span></h5>
+    </div>
+    
+	<div class="container" id="id02">
+
+	</div>
+<button class="button padding-large hover-white" style="margin: auto; display: block; margin-bottom: 10px" >Next Fact</button>
+
+		
+		<footer>Copyright&copyTacNews 2017</footer>
+	<script>window.onload =fact();
+		$('button').on('click', function() {
+		document.getElementById("id02").innerHTML = '';
+  		window.onload =fact();
+		});
+	</script>
+</body>
+</html>

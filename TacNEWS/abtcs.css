@@ -1,0 +1,98 @@
+.header_theme ul {
+	list-style-type:none;  
+    padding:10px;
+	height:50px;
+	margin:0;
+	background-color:#F5FFFA;
+	overflow:hidden;
+	
+		}
+		
+	.header_theme ul li{
+		float:left;
+		font-family:"Palatino Linotype","Book Antiqua",cursive;
+		color:#000;
+	}
+	h5{
+		text-align:right;
+	}
+	h1{ text-align:center;}/*header_theme is styled*/
+	
+	
+	
+	
+	
+	#navig ul {
+    
+    top: 130px;
+    width: 100%;
+	
+}
+	
+	
+	
+	
+	
+	#navig ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+}
+
+	#navig ul li {
+    float: left;
+}
+
+#navig ul li a {
+    display: block;
+    color: #F5FFFA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+
+#navig ul li a:hover:not(.active) {background-color: #111;}
+
+#navig ul li a.active {background-color: #00cc99;}
+
+.container{padding:0.01em 16px}
+.content{max-width:980px;margin:auto}
+.center{text-align:center!important}
+.padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
+.wide{font-family:"Segoe UI",Arial,sans-serif}
+.padding-left{padding-left:16px!important}.padding-right{padding-right:16px!important}
+.panel{padding:0.01em 16px}
+.leftbar{border-left:6px solid #ccc!important}
+.light-grey{color:#000!important;background-color:#f1f1f1!important}
+
+
+
+
+.footer_theme{
+	text-align:center;
+	background-color:#333;
+	height:42px;
+	border:2px dotted black;
+}
+
+
+#text{
+	color:white;
+}
+.col{padding:0 8px}
+
+.padding-64{padding-top:64px!important;padding-bottom:64px!important}
+
+.padding-32{padding-top:32px!important;padding-bottom:32px!important}
+
+.row-padding{padding:0 8px}
+.input{display:block;padding:8px 16px;width:600px;}
+.border{border:1px solid #ccc!important}
+.button{border:none;display:inline-block;outline:0;padding:6px 16px;vertical-align:middle;overflow:hidden;text-decoration:none!important;color:#fff;background-color:#000;text-align:center;cursor:pointer;}
+.half{float:center;width:100%;}

@@ -1,0 +1,89 @@
+
+	body{
+    background-blend-mode: lighten;
+}
+
+
+
+
+	header {
+		padding: 15px 20px;
+		alignment-baseline: top;
+		color: white;
+		background-color: #333;
+		clear: left;
+		text-align:center;
+		font-size: 40px;
+		height: 110px;
+	}
+	footer {
+		padding-top: 10px;
+		alignment-baseline: top;
+		color: white;
+		background-color: #333;
+		clear: both;
+		text-align: center;
+		height: 40px;
+		align-items: baseline;
+	}
+	
+	nav {
+		float: center;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	body {margin: 0;}
+	
+	ul.topnav{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+	
+	ul.topnav li{float: left;}
+	
+	ul.topnav li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	
+	ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+	ul.topnav li a.active {background-color: #00cc99;}
+
+	ul.topnav li.right {float: right;}
+.center{text-align:center!important}
+.padding-48{padding-top:48px!important;padding-bottom:8px!important}
+.tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
+.wide{font-family:'Merienda One', Helvetica,,sans-serif}
+.padding-left{padding-left:16px!important}.padding-right{padding-right:16px!important}
+.panel{padding:0.01em 16px}
+.leftbar{border-left:6px solid #ccc!important}
+.light-grey{color:#000!important;background-color:#f1f1f1!important}
+.tags{background-color:#fff;color:#000;display:inline-block;padding-left:8px;padding-right:8px;text-align:center;font-size: 40px;}
+
+.padding-large{padding:12px 24px!important}
+.w3-button{border:none;display:inline-block;outline:0;padding:6px 16px;vertical-align:middle;overflow:hidden;text-decoration:none!important;color:#fff;background-color:#000;text-align:center;cursor:pointer;white-space:nowrap}
+
+.hover-white:hover{color:#000!important;background-color:#fff!important}
+
+
+
+.col{padding:0 8px}
+
+.padding-64{padding-top:64px!important;padding-bottom:64px!important}
+
+.padding-32{padding-top:32px!important;padding-bottom:32px!important}
+
+.row-padding{padding:0 8px}
+.input{display:block;padding:8px 16px;width:600px;}
+.border{border:1px solid #ccc!important}
+.button{margin:0 auto;border:none;display:inline-block;outline:0;padding:6px 16px;vertical-align:middle;overflow:hidden;text-decoration:none!important;color:#fff;background-color:#000;text-align:center;cursor:pointer;}
+.half{float:center;width:100%;}

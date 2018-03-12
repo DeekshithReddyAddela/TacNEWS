@@ -1,0 +1,86 @@
+.header_theme ul {
+	list-style-type:none;  
+    padding:10px;
+	height:50px;
+	margin:0;
+	background-color:#F5FFFA;
+	overflow:hidden;
+	
+		}
+		
+	.header_theme ul li{
+		float:left;
+		font-family:"Palatino Linotype","Book Antiqua",cursive;
+		color:#000;
+	}
+	h5{
+		text-align:right;
+	}
+	h1{ text-align:center;}/*header_theme is styled*/
+	
+	
+	
+	
+	
+	#navig ul {
+    
+    top: 130px;
+    width: 100%;
+	
+}
+	
+	
+	
+	
+	
+	#navig ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+}
+
+	#navig ul li {
+    float: left;
+}
+
+#navig ul li a {
+    display: block;
+    color: #F5FFFA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+#navig ul li a:hover:not(.active) {background-color: #111;}
+
+#navig ul li a.active {background-color: #00cc99;}
+
+
+.container{padding:0.01em 16px}
+.content{max-width:980px;margin:auto}
+.center{text-align:center}
+.padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.wide{font-family:"Segoe UI",Arial,sans-serif}
+.justify{text-align:justify!important}
+.opacity{opacity:0.60;-webkit-backface-visibility:hidden}
+
+
+
+.footer_theme{
+	text-align:center;
+	background-color:#333;
+	height:42px;
+	border:2px dotted black;
+	
+}
+
+#text{
+color:white;
+}
+	
+	
+	
